@@ -1,8 +1,14 @@
 {
   "name": "nsdpy-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "repository": "https://github.com/RaphaelHebert/nsdpy-app",
+  "keywords": [
+    "nsdpy"
+  ],
+  "licence": "MIT",
+  "author": "RaphaelHebert",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && electron-builder",

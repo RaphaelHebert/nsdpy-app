@@ -1,4 +1,5 @@
 import { useState } from "react";
+import nsdpyLogo from "./assets/nsdpy_transparent.png";
 
 import "./App.css";
 
@@ -9,15 +10,18 @@ function App() {
     <>
       <div>
         <h1>Hello NSDPY</h1>
-        <a href="https://pypi.org/project/nsdpy/" target="_blank">
-          <img
-            src={
-              "https://github.com/RaphaelHebert/nsdpyImage/blob/main/nsdpyLogoSmall.png?raw=true"
-            }
-            className="logo"
-            alt="NSDPY logo"
-          />
-        </a>
+        <div
+          style={{
+            background: "white",
+            width: "140px",
+            height: "140px",
+            borderRadius: "70px",
+          }}
+        >
+          <a href="https://pypi.org/project/nsdpy/" target="_blank">
+            <img src={nsdpyLogo} className="logo" alt="NSDPY logo" />
+          </a>
+        </div>
       </div>
     </>
   );
